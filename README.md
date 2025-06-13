@@ -16,9 +16,9 @@ This Turborepo includes the following packages/apps:
 
 ### Apps and Packages
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
+- `web`: a [Next.js](https://nextjs.org/) app
+- `@repo/ui`: a stub React component library shared by the `web` application
+- `@nobilabs/tailwind-config`: shared Tailwind setup used by the `web` and `ui` packages
 - `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
 
@@ -82,3 +82,12 @@ Learn more about the power of Turborepo:
 - [Filtering](https://turborepo.com/docs/crafting-your-repository/running-tasks#using-filters)
 - [Configuration Options](https://turborepo.com/docs/reference/configuration)
 - [CLI Usage](https://turborepo.com/docs/reference/command-line-reference)
+
+
+## Git flow
+
+- Use branches named `feat-<description>` for new features.
+- Use branches named `fix-<description>` for bug fixes.
+- Use branches named `enhance-<description>` for improvements or optimizations.
+
+Create your branch from `main`, push commits, then open a pull request back to `main` when work is ready. Make sure your commit messages and PR titles describe the changes clearly.
