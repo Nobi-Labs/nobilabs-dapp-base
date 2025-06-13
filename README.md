@@ -81,3 +81,12 @@ Learn more about the power of Turborepo:
 - [Filtering](https://turborepo.com/docs/crafting-your-repository/running-tasks#using-filters)
 - [Configuration Options](https://turborepo.com/docs/reference/configuration)
 - [CLI Usage](https://turborepo.com/docs/reference/command-line-reference)
+
+
+## Git flow
+
+- Use branches named `feat-<description>` for new features.
+- Use branches named `fix-<description>` for bug fixes.
+- Use branches named `enhance-<description>` for improvements or optimizations.
+
+Create your branch from `main`, push commits, then open a pull request back to `main` when work is ready. Make sure your commit messages and PR titles describe the changes clearly.
